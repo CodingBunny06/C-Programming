@@ -1,6 +1,14 @@
-*.out
-*.exe
+# Compiled C executables
+*
+!*/
+!*.c
+!.gitignore
+
+# Object files
 *.o
-hello
-hello_world
+
+# macOS
 .DS_Store
+
+# VS Code temporary files
+tempCodeRunnerFile*
